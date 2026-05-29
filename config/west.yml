@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: arno
+      url-base: https://github.com/ArnoVanneste
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: prospector-zmk-module
+      remote: arno
+      revision: core/zephyr-4-1
   self:
     path: config

@@ -18,4 +18,6 @@ include:
   - board: xiao_ble//zmk
     shield: karma_right
   - board: xiao_ble//zmk
+    shield: karma_dongle prospector_adapter
+  - board: xiao_ble//zmk
     shield: settings_reset
